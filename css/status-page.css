@@ -1,0 +1,20 @@
+body.status-page,
+.section-components {
+    padding-top: 40px;
+}
+
+a.list-group-item strong:before {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    margin: 2px;
+}
+
+a.list-group-item.collapsed strong:before {
+    /* symbol for "collapsed" panels */
+    content: "\e114";
+}
+
+a.accordion-toggle{
+    text-decoration: none;
+}
